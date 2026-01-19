@@ -1,4 +1,5 @@
 console.log(getComputerChoice());
+console.log(getHumanChoice());
 
 function getComputerChoice() {
   let number = Math.floor(Math.random() * 3);
@@ -13,3 +14,7 @@ function getComputerChoice() {
   }
 }
 
+function getHumanChoice() {
+  let choice = prompt("Make a choice");
+  return choice;
+}
