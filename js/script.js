@@ -1,6 +1,9 @@
 console.log(getComputerChoice());
 console.log(getHumanChoice());
 
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice() {
   let number = Math.floor(Math.random() * 3);
 
